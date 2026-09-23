@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ZipHire | Connecting Talent With Opportunity</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #172033;
+      background: #ffffff;
+      line-height: 1.6;
+    }
+
+    nav {
+      max-width: 1100px;
+      margin: auto;
+      padding: 22px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    .logo span {
+      color: #4169e1;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #172033;
+      margin-left: 25px;
+      font-size: 15px;
+    }
+
+    .hero {
+      min-height: 72vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 70px 25px;
+      background: #f7f9fc;
+    }
+
+    .hero-content {
+      max-width: 780px;
+    }
+
+    .hero h1 {
+      font-size: 54px;
+      line-height: 1.1;
+      margin-bottom: 22px;
+    }
+
+    .hero h1 span {
+      color: #4169e1;
+    }
+
+    .hero p {
+      font-size: 19px;
+      color: #5e6879;
+      max-width: 650px;
+      margin: 0 auto 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #172033;
+      color: white;
+      padding: 14px 25px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 80px 30px;
+    }
+
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 18px;
+    }
+
+    section p {
+      color: #5e6879;
+      max-width: 760px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 35px;
+    }
+
+    .card {
+      border: 1px solid #e7e9ee;
+      border-radius: 10px;
+      padding: 25px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .careers {
+      background: #172033;
+      color: white;
+      max-width: none;
+      text-align: center;
+    }
+
+    .careers p {
+      color: #c5cad4;
+      margin: 0 auto 25px;
+    }
+
+    .careers .button {
+      background: white;
+      color: #172033;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #7b8493;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      nav .links {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">Zip<span>Hire</span></div>
+
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#what-we-do">What We Do</a>
+      <a href="#careers">Careers</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Connecting talent with <span>opportunity.</span></h1>
+
+      <p>
+        ZipHire is focused on helping businesses and talented professionals
+        connect, grow and build meaningful working relationships.
+      </p>
+
+      <a class="button" href="#about">Discover ZipHire</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About ZipHire</h2>
+
+    <p>
+      ZipHire is building a modern approach to connecting businesses with
+      talented people. We believe finding the right opportunity — or the right
+      person for an opportunity — should be simpler, faster and more accessible.
+    </p>
+  </section>
+
+  <section id="what-we-do">
+    <h2>What We Do</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Talent</h3>
+        <p>
+          Helping talented professionals discover opportunities where their
+          skills can make an impact.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Businesses</h3>
+        <p>
+          Supporting growing businesses as they identify and connect with
+          people who can help them move forward.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Opportunity</h3>
+        <p>
+          Creating stronger connections between ambitious people and
+          organizations building for the future.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="careers" id="careers">
+    <h2>Build With Us</h2>
+
+    <p>
+      We're building ZipHire and we're always interested in meeting talented
+      people who want to contribute to what comes next.
+    </p>
+
+    <a class="button" href="#">View Opportunities</a>
+  </section>
+
+  <footer>
+    © 2026 ZipHire. All rights reserved.
+  </footer>
+
+</body>
+</html>
