@@ -363,7 +363,29 @@
       color: rgba(255,255,255,0.78);
       max-width: 610px;
     }
+.employer-content {
+  flex: 1;
+}
 
+.employer-content p {
+  margin-bottom: 25px;
+}
+
+.employer-image-wrap {
+  width: 46%;
+  max-width: 480px;
+  border-radius: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.employer-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
     .btn-light {
       background: white;
       color: var(--navy);
@@ -467,7 +489,14 @@
         align-items: flex-start;
         padding: 40px 30px;
       }
+.employer-image-wrap {
+  width: 100%;
+  max-width: none;
+}
 
+.employer-image {
+  height: 260px;
+}
       .footer-grid {
         grid-template-columns: 1fr 1fr;
       }
@@ -649,21 +678,29 @@
     <section class="employer" id="employers">
       <div class="container">
 
-        <div class="employer-box">
+      <div class="employer-box">
 
-          <div>
-            <h2>Looking for Talent?</h2>
-            <p>
-              Looking for the right people for your business?
-              Connect with ZipHire and tell us what you need.
-            </p>
-          </div>
+  <div class="employer-content">
+    <h2>Looking for Talent?</h2>
+    <p>
+      Tell us the kind of people you're looking for and let ZipHire
+      help you connect with the right talent.
+    </p>
 
-          <a class="btn btn-light" href="#contact">
-            Contact ZipHire →
-          </a>
+    <a class="btn btn-light" href="#contact">
+      Contact ZipHire →
+    </a>
+  </div>
 
-        </div>
+  <div class="employer-image-wrap">
+    <img
+      src="ziphire-employers.png"
+      alt="Professionals collaborating with ZipHire"
+      class="employer-image"
+    >
+  </div>
+
+</div>
 
       </div>
     </section>
